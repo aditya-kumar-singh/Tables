@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context="list_multiplication.kumar.yo.aditya.tables.Main3Activity">
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:background="@drawable/tablesbutton"
+        android:layout_marginTop="151dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tbles"
+        />
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:background="@drawable/tblesbuttonchar"
+
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/tbles"
+        android:layout_alignStart="@+id/tbles"
+        android:layout_alignRight="@+id/tbles"
+        android:layout_alignEnd="@+id/tbles"
+        android:id="@+id/chart"
+        />
+
+</RelativeLayout>
